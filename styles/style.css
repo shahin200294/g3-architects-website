@@ -36,8 +36,14 @@
     font-weight: 600;
     border-radius: 8px;
     border: none;
-    /* margin-bottom: 40px; */
+}
 
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
 }
 
 /* header style */
@@ -74,11 +80,35 @@
 }
 
 .banner-img{
-    max-width: 100%;
+    width: 100%;
 }
 .banner-title{
     font-weight: 700;
     font-size: 4rem;
+}
+
+
+/* teams relatede style */
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features{
+    margin-left: 73px;
+    max-width: 530px;
+}
+
+.feature-title{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+#quick-list{
+    font-weight: 600;
 }
 
 /* responsive media quary */
@@ -86,4 +116,8 @@
 @media screen and (max-width: 576px) {
     .navbar, .nav-link{
         flex-direction: column;
+}
+    /* .banner-img{
+        max-width: 100%;
+    } */
 }
