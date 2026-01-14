@@ -113,11 +113,38 @@ main > section{
 #quick-list{
     font-weight: 600;
 }
+/* features section realeted style */
+
+.features{
+    gap: 140px;
+}
+
+#features-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+} 
 
 /* some facts related style */
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+.fact-icon img{
+    font-weight: 10px;
+    height: 10px;
 }
 .fact-card{
     border: 1px solid #FF900E;
